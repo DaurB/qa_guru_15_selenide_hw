@@ -26,5 +26,4 @@ public class GithubSortAssertionsTest {
         $(byText("SoftAssertions")).click();
         $("#user-content-3-using-junit5-extend-test-class").ancestor("h4").shouldHave(text("Using JUnit5 extend test class:"));
     }
-
 }
